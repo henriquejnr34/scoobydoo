@@ -15,6 +15,11 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 body {
     background-color: var(--rb-navy);
     background-image: linear-gradient(135deg, #020b1c 0%, var(--rb-navy) 100%);
@@ -532,8 +537,10 @@ body.daphne-mode .hero h1 {
 /* Responsive */
 @media (max-width: 480px) {
     .container {
-        width: 95%;
-        padding: 1rem;
+        width: 85%;
+        /* Reduced width to show more background cars */
+        padding: 1rem 0.5rem;
+        /* Tighter padding */
     }
 
     .hero h1 {
