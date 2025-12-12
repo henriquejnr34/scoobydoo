@@ -15,9 +15,15 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     overflow-x: hidden;
+    /* Strict overflow control */
     width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    /* Contain absolute elements */
 }
 
 body {
@@ -25,7 +31,6 @@ body {
     background-image: linear-gradient(135deg, #020b1c 0%, var(--rb-navy) 100%);
     color: white;
     font-family: 'Outfit', sans-serif;
-    overflow-x: hidden;
     min-height: 100vh;
     display: flex;
     justify-content: center;
