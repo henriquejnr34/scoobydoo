@@ -1,0 +1,16 @@
+{
+    "name": "race-to-dafny",
+    "version": "1.0.0",
+    "description": "F1 x Daphne website",
+    "main": "index.html",
+    "scripts": {
+        "start": "npx serve -s .",
+        "build": "echo \"No build script required for static site\" && exit 0"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "serve": "^14.2.0"
+    }
+}
