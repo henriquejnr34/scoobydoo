@@ -531,15 +531,56 @@ body.daphne-mode .hero h1 {
 
 /* Responsive */
 @media (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 1rem;
+    }
+
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
+        /* Smaller title */
+        letter-spacing: 0;
+    }
+
+    .rb-logo {
+        width: 150px;
+        /* Smaller logo */
     }
 
     .daphne-shrine {
-        height: 250px;
+        height: 140px;
+        /* Reduced height for mobile */
     }
 
-    .container {
-        padding: 2rem 1.5rem;
+    .daphne-full {
+        max-height: 120px;
+        /* Smaller image */
+    }
+
+    .envelope {
+        width: 200px;
+        height: 140px;
+    }
+
+    .envelope .flap {
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+        border-top: 80px solid var(--f1-red);
+    }
+
+    .envelope .body {
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+        border-bottom: 80px solid #e0e0e0;
+    }
+
+    .letter {
+        width: 180px;
+        height: 90px;
+        left: 10px;
+    }
+
+    .letter-section {
+        height: 160px;
     }
 }
